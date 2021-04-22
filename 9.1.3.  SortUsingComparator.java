@@ -1,4 +1,4 @@
-//9.2 Sort ArrayList of objects using Comparator
+//Driver code for Sort ArrayList of objects using Comparator
 import java.util.*;
 
 public class SortUsingComparator
