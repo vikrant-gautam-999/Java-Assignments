@@ -26,10 +26,22 @@ public class SortUsingComparator
 		Collections.sort(course, new IdComparator());
 		
 		System.out.println();
-		System.out.println("Sorted ArrayList");
+		System.out.println("Sorted ArrayList with ID");
 		for(Subject2 user : course)
 		{
 			System.out.println(user);
 		}
+		Collections.sort(course, new Comparator<Subject2>(){
+			public int compare(Subject2 s1, Subject2 s2){
+				return s1.getName().compareTo(s2.getName());
+			}
+		});
+		System.out.println();
+		System.out.println("Sorted ArrayList with name");
+		for(Subject2 user : course)
+		{
+			System.out.println(user);
+		}
+		
 	}
 }
