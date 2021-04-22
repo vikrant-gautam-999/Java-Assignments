@@ -1,4 +1,4 @@
-//field and method class for SortUsingAComparable using Comparable 
+//field and method class for SortUsingComparable using Comparable 
 public class Subject implements Comparable<Subject>
 {
 	int id;
