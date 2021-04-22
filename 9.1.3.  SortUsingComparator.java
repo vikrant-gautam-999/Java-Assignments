@@ -1,7 +1,5 @@
 //9.2 Sort ArrayList of objects using Comparator
 import java.util.*;
-import java.util.Collections;
-import java.util.List;
 
 public class SortUsingComparator
 {
