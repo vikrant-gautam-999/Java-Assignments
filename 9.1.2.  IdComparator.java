@@ -1,4 +1,4 @@
-//class defining method for SortUsingArray using Comparator
+//class defining method for SortUsingComparator using Comparator
 import java.util.Comparator;
 
 public class IdComparator implements Comparator<Subject2>
