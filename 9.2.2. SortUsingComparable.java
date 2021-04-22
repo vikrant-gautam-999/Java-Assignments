@@ -1,4 +1,4 @@
-//Sort ArrayList of objects using Comparable
+//Driver code for SortUsingArray using Comparable
 import java.util.*;
 
 public class SortUsingComparable
