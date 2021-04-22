@@ -1,4 +1,4 @@
-//9. Sort ArrayList of objects (Subject.java) 
+//field and method class for SortUsingArray using Comparable 
 public class Subject implements Comparable<Subject>
 {
 	int id;
